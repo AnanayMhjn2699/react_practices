@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +36,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.divArea {
+  height: 100vh;
+}
+
+.point {
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+  background-color: red;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+.states {
+  display: block;
+  margin: 10px;
+}
+.capitals {
+  display: block;
+  margin: 10px;
+}
+
+.block {
+  height: 400px;
+  width: 700px;
+}
+
+.btn {
+  display: grid;
+  width: 50px;
+  height: 20px;
 }
