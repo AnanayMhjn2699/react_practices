@@ -1,0 +1,11 @@
+.Main {
+  display: flex;
+  justify-content: center;
+}
+.mainDropDown {
+  display: block;
+}
+
+.blue {
+  background-color: aqua;
+}

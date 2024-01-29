@@ -118,51 +118,60 @@
 
 // export default App;
 
-//*************pin matching */
-import { useState } from "react";
-import "./App.css";
+// //*************pin matching */
+// import { useState } from "react";
+// import "./App.css";
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
-const pin = "1234";
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+// const pin = "1234";
 
-const App = () => {
-  const [num, setNum] = useState([]);
-  const [isCorrect, SetIsCorrect] = useState(null);
-  return (
-    <>
-      <input placeholder="enter the pin" value={num}></input>
-      <button
-        onClick={() => {
-          num.join("") === pin ? SetIsCorrect(true) : SetIsCorrect(false);
-        }}
-      >
-        {" "}
-        Submit
-      </button>
-      {isCorrect ? (
-        <p>You have entered Correct Pin</p>
-      ) : (
-        <p>Enter the correct pin</p>
-      )}
-      <div>
-        {numbers.map((no) => {
-          return (
-            <button
-              key={no}
-              onClick={() => {
-                setNum((prev) => {
-                  return [...prev, no];
-                });
-              }}
-              className="btn"
-            >
-              {no}
-            </button>
-          );
-        })}
-      </div>
-    </>
-  );
-};
+// const App = () => {
+//   const [num, setNum] = useState([]);
+//   const [isCorrect, SetIsCorrect] = useState(null);
+//   return (
+//     <>
+//       <input placeholder="enter the pin" value={num}></input>
+//       <button
+//         onClick={() => {
+//           num.join("") === pin ? SetIsCorrect(true) : SetIsCorrect(false);
+//         }}
+//       >
+//         {" "}
+//         Submit
+//       </button>
+//       {isCorrect ? (
+//         <p>You have entered Correct Pin</p>
+//       ) : (
+//         <p>Enter the correct pin</p>
+//       )}
+//       <div>
+//         {numbers.map((no) => {
+//           return (
+//             <button
+//               key={no}
+//               onClick={() => {
+//                 setNum((prev) => {
+//                   return [...prev, no];
+//                 });
+//               }}
+//               className="btn"
+//             >
+//               {no}
+//             </button>
+//           );
+//         })}
+//       </div>
+//     </>
+//   );
+// };
 
-export default App;
+// export default App;
+
+// /*************multi select state dropdown */
+// import "./App.css";
+// import StateDropDown from "./StateDropDown";
+
+// const App = () => {
+//   return <StateDropDown />;
+// };
+// export default App;
