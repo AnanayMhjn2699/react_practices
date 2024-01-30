@@ -1,0 +1,23 @@
+:root {
+  --empty-image: url("https://web-dev-junkie-files.s3.amazonaws.com/hole.png");
+  --mole-image: url("https://web-dev-junkie-files.s3.amazonaws.com/mole.png");
+}
+
+.mainGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridElem {
+  height: 164px;
+  width: 257px;
+  /* background-image: url("https://web-dev-junkie-files.s3.amazonaws.com/hole.png");
+   */
+}
+.gridElem:not(.mole) {
+  background-image: var(--empty-image);
+}
+.mole {
+  background-image: var(--mole-image);
+}
