@@ -175,3 +175,41 @@
 //   return <StateDropDown />;
 // };
 // export default App;
+
+/****************building a traffic light which changes it's color at set intervals */
+import { useEffect, useState } from "react";
+import "./App.css";
+const lights = ["red", "yellow", "green"];
+const App = () => {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    if (index === 0)
+      setTimeout(() => {
+        setIndex(1);
+      }, 3000);
+    else if (index === 1)
+      setTimeout(() => {
+        setIndex(2);
+      }, 2000);
+    else
+      setTimeout(() => {
+        setIndex(0);
+      }, 5000);
+  }, [index]);
+
+  return (
+    <div className="mainDiv">
+      <div
+        className={"circle red" + (lights[index] === "red" ? " on" : "")}
+      ></div>
+      <div
+        className={"circle yellow" + (lights[index] === "yellow" ? " on" : "")}
+      ></div>
+      <div
+        className={"circle green" + (lights[index] === "green" ? " on" : "")}
+      ></div>
+    </div>
+  );
+};
+export default App;
