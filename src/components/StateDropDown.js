@@ -1,6 +1,6 @@
 import { useState } from "react";
-import states from "./states";
-import "./StateDropDown.css";
+import states from "../states";
+import "./styles/StateDropDown.css";
 const StateDropDown = () => {
   const [showMenu, setShowMenu] = useState(false);
 
