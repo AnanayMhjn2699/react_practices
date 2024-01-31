@@ -214,11 +214,18 @@
 // };
 // export default App;
 
-/***************************whack a mole game */
-import WhackAMole from "./WhackAMole";
-import "./WhackAMole.css";
+// /***************************whack a mole game */
+// import WhackAMole from "./components/WhackAMole";
+// import "./styles/WhackAMole.css";
+
+// const App = () => {
+//   return <WhackAMole />;
+// };
+// export default App;
+
+/******************************Star rating screen using emoji */
 
 const App = () => {
-  return <WhackAMole />;
+  return <StarRating />;
 };
 export default App;
