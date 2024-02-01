@@ -224,7 +224,7 @@
 // export default App;
 
 /******************************Star rating screen using emoji */
-
+import StarRating from "./components/StarRating";
 const App = () => {
   return <StarRating />;
 };

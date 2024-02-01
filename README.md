@@ -7,3 +7,4 @@ each practice problem is in app.js only with the heading stated prefixed with "*
 4. making a multi select dropdown which has toggle functionality and also shows no of states selected in the above button
 5. making a traffic light which changes colors from red->yellow->green->red->continues. it will show th red for 3 sec, then yellow for 2 sec and then green for 5 sec
 6. WhackAMole game
+7. star rating with emojis
