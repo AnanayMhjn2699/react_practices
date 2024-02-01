@@ -1,4 +1,4 @@
-//******************creat a dot on clicking on screen with undo redo buttons
+//*************************************************creat a dot on clicking on screen with undo redo buttons
 // import { useState } from "react";
 // import "./App.css";
 
@@ -47,7 +47,7 @@
 
 // export default App;
 
-//************Image carousel
+//*****************************************************************************Image carousel
 // import { useState } from "react";
 // import "./App.css";
 
@@ -118,7 +118,7 @@
 
 // export default App;
 
-// //*************pin matching */
+// //***************************************************************************pin matching */
 // import { useState } from "react";
 // import "./App.css";
 
@@ -167,7 +167,7 @@
 
 // export default App;
 
-// /*************multi select state dropdown */
+// /******************************************************multi select state dropdown */
 // import "./App.css";
 // import StateDropDown from "./components/StateDropDown";
 
@@ -176,7 +176,7 @@
 // };
 // export default App;
 
-// /****************building a traffic light which changes it's color at set intervals */
+// /***********************************building a traffic light which changes it's color at set intervals */
 // import { useEffect, useState } from "react";
 // import "./App.css";
 // const lights = ["red", "yellow", "green"];
@@ -214,7 +214,7 @@
 // };
 // export default App;
 
-// /***************************whack a mole game */
+// /*************************************************************************whack a mole game */
 // import WhackAMole from "./components/WhackAMole";
 // import "./styles/WhackAMole.css";
 
@@ -223,7 +223,7 @@
 // };
 // export default App;
 
-/******************************Star rating screen using emoji */
+/******************************************************************Star rating screen using emoji */
 import StarRating from "./components/StarRating";
 const App = () => {
   return <StarRating />;
