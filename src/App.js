@@ -1,7 +1,6 @@
 //*************************************************creat a dot on clicking on screen with undo redo buttons
 // import { useState } from "react";
 // import "./App.css";
-
 // const App = () => {
 //   const [points, setPoints] = useState([]);
 //   const [undoPoints, setUndoPoints] = useState([]);
@@ -223,9 +222,16 @@
 // };
 // export default App;
 
-/******************************************************************Star rating screen using emoji */
-import StarRating from "./components/StarRating";
+// /******************************************************************Star rating screen using emoji */
+// import StarRating from "./components/StarRating";
+// const App = () => {
+//   return <StarRating />;
+// };
+// export default App;
+
+/*******************************************************************************search bar  */
+import SearchBar from "./components/SearchBar";
 const App = () => {
-  return <StarRating />;
+  return <SearchBar />;
 };
 export default App;
