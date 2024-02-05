@@ -9,3 +9,4 @@ each practice problem is in app.js only with the heading stated prefixed with "*
 6. WhackAMole game
 7. star rating with emojis
 8. search bar showing nothing if the input is empty (remove the ternary operator if want to show data when nothing is inputted)
+9. tabulating the fetched data from an API and sorting that data on basis of some value in that data

@@ -229,9 +229,16 @@
 // };
 // export default App;
 
-/*******************************************************************************search bar  */
-import SearchBar from "./components/SearchBar";
+// /*******************************************************************************search bar  */
+// import SearchBar from "./components/SearchBar";
+// const App = () => {
+//   return <SearchBar />;
+// };
+// export default App;
+
+/*************************************************************tabulating the fetched data in sorted order */
+import TabulateFetchedData from "./components/TabulateFetchedData";
 const App = () => {
-  return <SearchBar />;
+  return <TabulateFetchedData />;
 };
 export default App;
