@@ -236,9 +236,16 @@
 // };
 // export default App;
 
-/*************************************************************tabulating the fetched data in sorted order */
-import TabulateFetchedData from "./components/TabulateFetchedData";
+// /*************************************************************tabulating the fetched data in sorted order */
+// import TabulateFetchedData from "./components/TabulateFetchedData";
+// const App = () => {
+//   return <TabulateFetchedData />;
+// };
+// export default App;
+
+/***********************************************************Quiz Application showing score at end on submitting */
+import QuizApp from "./components/QuizApp";
 const App = () => {
-  return <TabulateFetchedData />;
+  return <QuizApp />;
 };
 export default App;
