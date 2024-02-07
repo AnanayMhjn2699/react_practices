@@ -243,9 +243,16 @@
 // };
 // export default App;
 
-/***********************************************************Quiz Application showing score at end on submitting */
-import QuizApp from "./components/QuizApp";
+// /***********************************************************Quiz Application showing score at end on submitting */
+// import QuizApp from "./components/QuizApp";
+// const App = () => {
+//   return <QuizApp />;
+// };
+// export default App;
+
+/*********************************************************************************** Stopwatch */
+import Stopwatch from "./components/Stopwatch";
 const App = () => {
-  return <QuizApp />;
+  return <Stopwatch />;
 };
 export default App;
