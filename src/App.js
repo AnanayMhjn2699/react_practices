@@ -250,9 +250,16 @@
 // };
 // export default App;
 
-/*********************************************************************************** Stopwatch */
-import Stopwatch from "./components/Stopwatch";
+// /*********************************************************************************** Stopwatch */
+// import Stopwatch from "./components/Stopwatch";
+// const App = () => {
+//   return <Stopwatch />;
+// };
+// export default App;
+
+/**************************************************************To-do app with add and delete functionality*/
+import ToDo from "./components/ToDo";
 const App = () => {
-  return <Stopwatch />;
+  return <ToDo />;
 };
 export default App;
