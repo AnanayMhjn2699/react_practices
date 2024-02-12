@@ -264,12 +264,19 @@
 // };
 // export default App;
 
-/**************************************************************folder file representation in tree structure */
-import TreeStructure from "./components/TreeStructure";
-import { data } from "./utils/folderData";
+// /**************************************************************folder file representation in tree structure */
+// import TreeStructure from "./components/TreeStructure";
+// import { data } from "./utils/folderData";
+// const App = () => {
+//   return data.map((elem) => {
+//     return <TreeStructure data={elem} pad={1} />;
+//   });
+// };
+// export default App;
+
+/******************************************************************************infinite scroll */
+import InfiniteScroll from "./components/InfiniteScroll";
 const App = () => {
-  return data.map((elem) => {
-    return <TreeStructure data={elem} pad={1} />;
-  });
+  return <InfiniteScroll />;
 };
 export default App;
