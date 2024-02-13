@@ -274,9 +274,16 @@
 // };
 // export default App;
 
-/******************************************************************************infinite scroll */
-import InfiniteScroll from "./components/InfiniteScroll";
+// /******************************************************************************infinite scroll */
+// import InfiniteScroll from "./components/InfiniteScroll";
+// const App = () => {
+//   return <InfiniteScroll />;
+// };
+// export default App;
+
+/*************************************************************************************Tic Tac Toe Game */
+import TicTacToe from "./components/TicTacToe";
 const App = () => {
-  return <InfiniteScroll />;
+  return <TicTacToe />;
 };
 export default App;
