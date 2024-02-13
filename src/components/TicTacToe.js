@@ -31,7 +31,8 @@ const TicTacToe = () => {
     // cellData[sol[0]] === cellData[sol[1]] &&
     //     cellData[sol[1]] === cellData[sol[2]])
     // })
-    //this will run over soln only till it returns something and then stops
+    //this will run over soln only till it returns true and then stops but if does not becomes treu in any case
+    //it returns false
 
     // soln.map((sol) => {
     //   console.log(sol);
