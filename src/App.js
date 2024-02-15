@@ -281,9 +281,16 @@
 // };
 // export default App;
 
-/*************************************************************************************Tic Tac Toe Game */
-import TicTacToe from "./components/TicTacToe";
+// /*************************************************************************************Tic Tac Toe Game */
+// import TicTacToe from "./components/TicTacToe";
+// const App = () => {
+//   return <TicTacToe />;
+// };
+// export default App;
+
+// /**********************************************Multi Select Search Bar showing selected items in search bar */
+import MultiSelectSearchBar from "./components/MultiSelectSearchBar";
 const App = () => {
-  return <TicTacToe />;
+  return <MultiSelectSearchBar />;
 };
 export default App;

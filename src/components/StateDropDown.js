@@ -1,8 +1,8 @@
 import { useState } from "react";
 import states from "../states";
-import "./styles/StateDropDown.css";
+import "../styles/StateDropDown.css";
 const StateDropDown = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(true);
 
   const [selectedStates2, setSelectedStates2] = useState(
     states.reduce((acc, state) => ({ ...acc, [state.key]: false }), {})

@@ -1,0 +1,31 @@
+.subDiv {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.subDiv span {
+  z-index: 10;
+}
+.subDiv input {
+  height: 30px;
+  width: 250px;
+  border: none;
+}
+.subDiv input:focus {
+  outline: none;
+}
+.mainDiv button {
+  display: block;
+  position: fixed;
+  left: 40%;
+  margin-top: 3px;
+  width: 100px;
+  height: 30px;
+}
+.selected-data {
+  margin: 3px;
+}
