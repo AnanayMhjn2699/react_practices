@@ -16,3 +16,4 @@ each practice problem is in app.js only with the heading stated prefixed with "*
 13. folder file representation in tree structure
 14. infinite scroll fetching data from api
 15. TicTacToe game
+16. Multi select search bar showing selected data from search results inside the bar itself
