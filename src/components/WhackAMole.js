@@ -150,3 +150,59 @@ const WhackAMole = () => {
   );
 };
 export default WhackAMole;
+
+/* *************************************another way to do the same but easy
+import { useState } from "react";
+import { EMPTY_IMAGE, MOLE_IMAGE } from "../utils/WhackAMoleImages";
+import { useEffect } from "react";
+const PracticeComponent = () => {
+  const [moleIndex, setMoleIndex] = useState(0);
+  let intervalId = 0;
+  const [score, setScore] = useState(0);
+
+  useEffect(() => {
+    intervalId = setInterval(() => {
+      setMoleIndex(Math.floor(Math.random() * 9));
+    }, 1000);
+
+    return () => clearInterval(intervalId);
+  }, [moleIndex]);
+  return (
+    <>
+      <h1>{score}</h1>
+      <div id="mainDiv" style={{ width: 600 + "px" }}>
+        {Array(9)
+          .fill("")
+          .map((i, index) => {
+            return (
+              <div
+                onClick={(e) => {
+                  if (parseInt(e.target.id) === moleIndex) setScore(score + 1);
+                }}
+                key={index}
+                id={index}
+                style={{
+                  display: "inline-block",
+                  width: 200 + "px",
+                  height: 200 + "px",
+                  backgroundImage:
+                    moleIndex === index
+                      ? `url(${MOLE_IMAGE})`
+                      : `url(${EMPTY_IMAGE})`,
+                }}
+              ></div>
+            );
+          })}
+      </div>
+    </>
+  );
+};
+export default PracticeComponent;
+
+
+
+
+
+
+
+*/
